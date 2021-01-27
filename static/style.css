@@ -1,0 +1,37 @@
+body {
+    margin:0;
+    font-family: "Helvetica", arial, sans-serif; font-size: 16px;
+}
+
+body > header {
+    background-color: darkblue;
+    padding: 10px;
+}
+
+body > header > nav > ul {
+    list-style: none;
+}
+
+body > header > nav > ul > li {
+    display: inline;
+    margin-right: 20px;
+}
+
+body > header > nav > ul > li > a {
+    color:white;
+}
+
+.content {
+    margin: 30px;
+}
+
+
+
+body > footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkblue;
+    padding: 20px;
+}
